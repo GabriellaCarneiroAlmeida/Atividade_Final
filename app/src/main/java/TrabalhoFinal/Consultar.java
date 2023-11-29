@@ -16,9 +16,9 @@ public class Consultar {
     }
     
     public void printNotas(){
-        System.out.print("A(o) estudante:");
-        System.out.println(this.notas.nomes);
-        System.out.print("Tem, no trabalho final nota:");
-        System.out.println(this.notas.notas);
+        System.out.print("As(os) estudante(s):");
+        System.out.println(this.notas.getNomes());
+        System.out.print("Tem, no trabalho final nota(s):");
+        System.out.println(this.notas.getNotas());
     }
 }
