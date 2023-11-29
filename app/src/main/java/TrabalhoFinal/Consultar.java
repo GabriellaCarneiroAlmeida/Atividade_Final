@@ -21,4 +21,10 @@ public class Consultar {
         System.out.print("Tem, no trabalho final nota(s):");
         System.out.println(this.notas.getNotas());
     }
+
+    @Override
+    public String toString() {
+        return "Consultar{" + "notas=" + notas + '}';
+    }
+    
 }
