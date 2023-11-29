@@ -15,5 +15,8 @@ public class App {
         notas.setNotas(10.0);
         
         System.out.println(notas);
+        
+        Consultar consulta = new Consultar(notas);
+        consulta.printNotas();
     }
 }

@@ -9,15 +9,16 @@ package TrabalhoFinal;
  * @author Gabriella Carneiro Almeida #2
  */
 public class Consultar {
+    Notas notas = new Notas();
 
-    public Consultar() {
+    public Consultar(Notas notas) {
+        this.notas = notas;
     }
     
     public void printNotas(){
-        Notas notas = new Notas();
         System.out.print("A(o) estudante:");
-        System.out.println(notas.nomes);
+        System.out.println(this.notas.nomes);
         System.out.print("Tem, no trabalho final nota:");
-        System.out.println(notas.notas);
+        System.out.println(this.notas.notas);
     }
 }
