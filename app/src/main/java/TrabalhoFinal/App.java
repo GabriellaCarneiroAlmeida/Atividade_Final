@@ -9,6 +9,11 @@ public class App {
     }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        
+        Notas notas = new Notas();
+        notas.setNomes("Gabriella Cordeiro Almeida");
+        notas.setNotas(10.0);
+        
+        System.out.println(notas);
     }
 }
