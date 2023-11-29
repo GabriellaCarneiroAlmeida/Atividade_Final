@@ -6,7 +6,7 @@ package TrabalhoFinal;
 
 /**
  *
- * @author hermes
+ * @author Gabriella
  */
 public class Notas {
     
