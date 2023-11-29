@@ -21,6 +21,14 @@ public class Notas {
         this.nomes.add(nomes);
     }
 
+    public void setNomes(ArrayList<String> nomes) {
+        this.nomes = nomes;
+    }
+
+    public void setNotas(ArrayList<Double> notas) {
+        this.notas = notas;
+    }
+
     public void setNotas(double notas) {
         this.notas.add(notas);
     }
@@ -32,6 +40,7 @@ public class Notas {
     public ArrayList<Double> getNotas() {
         return notas;
     }
+    
 
     @Override
     public String toString() {
